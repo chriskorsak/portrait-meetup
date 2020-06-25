@@ -4,6 +4,7 @@ html {
 
 p {
   padding: 15px;
+  line-height: 1.3rem;
 }
 
 /* header and navigation section */
@@ -90,9 +91,35 @@ section.events {
 div.event {
   /* min-height: 350px; */
   min-width: 49.5%;
+  min-height: 400px;
+  background-size: cover;
   background-color: rgb(235, 235, 235);
   display: inline-block;
+  color: rgb(256, 256, 256); 
 }
+
+#event1 {
+  background-image: url(../images/mtTabor.jpg);
+}
+
+#event2 {
+  background-image: url(../images/studioNW.jpg);
+}
+
+
+div.event h1,
+div.event h2 {
+  padding-left: 2%;
+  text-shadow: 1px 1px 12px rgb(0, 0, 0);
+}
+
+div.event h1 {
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  font-size: 2rem;
+  padding-top: 20%;
+}
+
 
 .gallery {
   width: 100%;
