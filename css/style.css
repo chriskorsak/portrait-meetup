@@ -2,6 +2,10 @@ html {
   font-size: 16px;
 }
 
+p {
+  padding: 15px;
+}
+
 /* header and navigation section */
 
 header {
@@ -11,23 +15,10 @@ header {
   min-height: 600px;
 }
 
-header h1,
-header h2 {
-  color: rgb(256, 256, 256);
-  line-height: 3rem;
-  margin-left: 2rem;
-}
-
-header h1 {
-  text-transform: uppercase;
-  margin-top: 15rem;
-  letter-spacing: .5rem;
-  font-size: 3rem;
-}
+/* nav bar */
 
 nav {
   background-color: rgba(256, 256, 256, .5);
-  padding: 1%;
   text-align: center;
 }
 
@@ -37,12 +28,44 @@ nav li {
   min-width: 200px;
 }
 
+nav a {
+  width: 100%;
+  padding: 4% 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgba(256, 256, 256, .2);
+
+}
+
+
+div.title {
+  width: 94%;
+  margin: 0 auto;
+}
+
+header h1,
+header h2 {
+  color: rgb(256, 256, 256);
+  padding-left: 2%;
+  text-shadow: 2px 2px 12px rgb(0, 0, 0);
+}
+
+header h1 {
+  text-transform: uppercase;
+  letter-spacing: .6rem;
+  font-size: 3rem;
+  padding-top: 20%;
+}
+
 /* main content section */
 
 main {
   margin: 0 auto;
   width: 94%;
-  padding: 3%;
+  /* padding: 3%; */
 }
 
 section > h2 {
@@ -50,9 +73,23 @@ section > h2 {
   margin: 2rem 0;
 }
 
-.event {
-  min-height: 400px;
-  width: 45%;
+blockquote {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-style: italic;
+  padding: 20px;
+}
+
+section.events {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.event {
+  /* min-height: 350px; */
+  min-width: 49.5%;
   background-color: rgb(235, 235, 235);
   display: inline-block;
 }
@@ -64,9 +101,8 @@ section > h2 {
 }
 
 .gallery img {
-  max-width: 31%;
+  max-width: 33%;
   height: auto;
-  margin: 1%;
 }
 
 /* footer section */
