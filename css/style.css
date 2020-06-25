@@ -20,7 +20,7 @@ header h2 {
 
 header h1 {
   text-transform: uppercase;
-  margin-top: 14rem;
+  margin-top: 15rem;
   letter-spacing: .5rem;
   font-size: 3rem;
 }
@@ -46,21 +46,27 @@ main {
 }
 
 section > h2 {
-  text-align: center;
   text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+.event {
+  min-height: 400px;
+  width: 45%;
+  background-color: rgb(235, 235, 235);
+  display: inline-block;
 }
 
 .gallery {
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .gallery img {
-  max-width: 30%;
+  max-width: 31%;
   height: auto;
-  margin: 10px;
+  margin: 1%;
 }
 
 /* footer section */
