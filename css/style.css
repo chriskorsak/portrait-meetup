@@ -1,0 +1,22 @@
+header {
+  background-image: url('../images/20190517_4810.jpg');
+  background-size: cover;
+}
+
+main {
+  margin: 0 auto;
+  width: 94%;
+  padding: 3%;
+}
+
+.gallery {
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery img {
+  max-width: 30%;
+  height: auto;
+  margin: 10ox;
+  /* display: inline-block; */
+}
