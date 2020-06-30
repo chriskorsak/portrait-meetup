@@ -35,7 +35,8 @@ header {
   background-color: rgb(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 600px;
+  background-position: top;
+  min-height: 650px;
 }
 
 nav {
@@ -112,11 +113,13 @@ div.event {
 }
 
 #event1 {
-  background-image: url(../images/mtTabor.jpg);
+  background-image: url(../images/20121008_1050073.jpg);
+  background-position: bottom;
 }
 
 #event2 {
-  background-image: url(../images/studioNW.jpg);
+  background-image: url(../images/20191207_2549.jpg);
+  background-position: bottom;
 }
 
 div.event h1,
@@ -175,6 +178,10 @@ footer {
 
   p {
     font-size: 1.1rem;
+  }
+  
+  header h1 {
+    padding-top: 35%;
   }
   
   nav li {
