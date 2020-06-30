@@ -4,7 +4,12 @@
 
 html {
   font-size: 16px;
+}
+
+.container {
   font-family: 'Lato', sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 p {
@@ -95,14 +100,13 @@ blockquote {
 section.events {
   width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 div.event {
-  /* min-height: 350px; */
-  min-width: 49.5%;
   min-height: 400px;
+  min-width: 49.5%;
   background-size: cover;
-  background-color: rgb(235, 235, 235);
   display: inline-block;
   color: rgb(256, 256, 256); 
 }
@@ -115,7 +119,6 @@ div.event {
   background-image: url(../images/studioNW.jpg);
 }
 
-
 div.event h1,
 div.event h2 {
   padding-left: 2%;
@@ -125,7 +128,7 @@ div.event h2 {
 div.event h1 {
   text-transform: uppercase;
   letter-spacing: .4rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding-top: 20%;
 }
 
@@ -152,43 +155,42 @@ footer {
 /* ------------------------------------ */
 /* Media Queries */
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 960px) {  
+  header {
+    background-position: center;
+    min-height: 500px;
+  }
+  
+  div.event {
+    min-width: 100%;
+    height: auto;
+    margin-bottom: 1%;
+  }  
+
+}
+
+@media only screen and (max-width: 768px) {
   html {
-    font-size: 15px;
+    font-size: 13px;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
   
   nav li {
     width: 48%;
+    font-size: 1.2rem;
   }
 
-  nav {
-    /* display: none; */
-  }
-  
-  header {
-    background-position: center;
-    min-height: auto;
-  }
-
-  header h1 {
-    font-size: 3rem;
-    padding-top: 40%;
-  }
-  
-  /* main */
-  div.event {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 1%;
+  nav a {
+    padding: 2%;
   }
 
   .gallery img {
-    max-width: 100%;
+    min-width: 100%;
     height: auto;
-    display: block;
     margin-bottom: 1%;
-  }
-  
-  
+  } 
+
 }
