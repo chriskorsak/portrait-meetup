@@ -152,7 +152,7 @@ footer {
   font-size: .9rem;
 }
 
-/* ------------------------------------ */
+/* ---------------------------------------------------------- */
 /* Media Queries */
 
 @media only screen and (max-width: 960px) {  
@@ -166,7 +166,6 @@ footer {
     height: auto;
     margin-bottom: 1%;
   }  
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -192,5 +191,4 @@ footer {
     height: auto;
     margin-bottom: 1%;
   } 
-
 }
